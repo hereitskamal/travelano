@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/travelano/static/css/main.95ed31d5.css",
-    "main.js": "/travelano/static/js/main.fd24733f.js",
+    "main.css": "/travelano/static/css/main.8f37bece.css",
+    "main.js": "/travelano/static/js/main.1221a5ca.js",
     "static/js/787.963412cf.chunk.js": "/travelano/static/js/787.963412cf.chunk.js",
     "static/media/jaipur.jpg": "/travelano/static/media/jaipur.3b10ae1f3c1873ba8915.jpg",
     "static/media/agra3.jpg": "/travelano/static/media/agra3.31affd8bdccb2b3c0b55.jpg",
@@ -41,12 +41,12 @@
     "static/media/Kerala.jpg": "/travelano/static/media/Kerala.6a018d33bf81c590d7ac.jpg",
     "static/media/ladakh1.jpg": "/travelano/static/media/ladakh1.34d1d4c835efb8f0f726.jpg",
     "index.html": "/travelano/index.html",
-    "main.95ed31d5.css.map": "/travelano/static/css/main.95ed31d5.css.map",
-    "main.fd24733f.js.map": "/travelano/static/js/main.fd24733f.js.map",
+    "main.8f37bece.css.map": "/travelano/static/css/main.8f37bece.css.map",
+    "main.1221a5ca.js.map": "/travelano/static/js/main.1221a5ca.js.map",
     "787.963412cf.chunk.js.map": "/travelano/static/js/787.963412cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95ed31d5.css",
-    "static/js/main.fd24733f.js"
+    "static/css/main.8f37bece.css",
+    "static/js/main.1221a5ca.js"
   ]
 }
