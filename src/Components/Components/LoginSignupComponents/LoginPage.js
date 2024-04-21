@@ -8,7 +8,6 @@ import { SocialIcon } from "react-social-icons";
 import CustomToast from "./CustomToast";
 import { useGoogleLogin, GoogleLogin } from "@react-oauth/google";
 import jwt_decode, { jwtDecode } from "jwt-decode";
-
 const LoginPage = () => {
   const [userData, setUserData] = useState({
     mailId: "",
@@ -86,8 +85,7 @@ const LoginPage = () => {
   useEffect(() => {
     /* global google */
     google.accounts.id.initialize({
-      // client_id:
-      //   "#",
+      client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,
       callback: handleCallbackResponse,
     });
     google.accounts.id.renderButton(document.getElementById("signInDiv"), {
@@ -95,7 +93,7 @@ const LoginPage = () => {
       size: "Large",
     });
   }, []);
-
+  
   const [userDetails, setuserDetails] = useState({})
 
   

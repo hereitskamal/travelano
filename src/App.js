@@ -5,7 +5,7 @@ import Body from './Components/Body';
 import LoginPage from "./Components/Components/LoginSignupComponents/LoginPage";
 import SignUpPage from "./Components/Components/LoginSignupComponents/SignUpPage";
 import SignInWithPhone from "./Components/Components/LoginSignupComponents/SignInWithPhone";
-import GroupTourEventForm from "./Components/Components/HomePageComponents/GroupTourEventForm";
+import GroupTourEventForm from "./Components/Components/HomePageComponents/GroupTourEventForm";   
 import AboutUs from './Components/Body/AboutUs';
 import Package from './Components/Body/Package';
 import ContactUs from './Components/ContatcUs';
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Body />} />
+        <Route exact path="/travelano" element={<Body />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/SignInWithPhone" element={<SignInWithPhone />} />
