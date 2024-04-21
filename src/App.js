@@ -14,6 +14,8 @@ import AdminDashbord from './Components/Admin/AdminDashbord';
 const App = () => {
   return (
       <Routes>
+
+        <Route exact ="/" element={<Body />} />
         <Route exact path="/travelano" element={<Body />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
