@@ -1,0 +1,98 @@
+
+.navbar-container {
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+  }
+  
+  .logo, .user {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    margin: 6px;
+  }
+
+  .profile-image{
+    width: 34px;
+    height: 34px;
+    background-color: rgb(69, 69, 69);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+  }
+  
+/* navigation */
+
+.navigation-container{
+    width: 60%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255);
+}
+.nav-button{
+    
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+.nav-button:hover{
+    background-color: rgb(87, 148, 118);
+}
+.nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-container input{
+    width: 25%;
+    height: 30px;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    border-right: 2px solid rgb(207, 207, 207);
+}
+.nav-container input::placeholder{
+    font-size: 14px;
+    color: rgb(189, 189, 189);
+}
+.nav-container input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(131, 157, 208);
+    background-color: rgba(255, 255, 255, 0.496);
+}
+@media (max-width: 700px){
+    .navbar-container{
+        justify-content: center;
+        padding: 0%;
+        padding-top: 5%;
+        width: 100%;
+    }
+    .navigation-container{
+        margin: 5%;
+        width: 90%;
+    }
+    .nav-container input::placeholder{
+        font-size: 10px;
+    }
+    .logo{
+        order: 0;
+        margin-right: 10px ;
+    }
+    .user{
+        order: 1;
+        margin-left: 10px;
+    }
+    .navigation-container{
+        order:2;
+        padding: 0%;
+        padding-top: 10px;
+        margin: 5px;
+    }
+}
+

@@ -1,0 +1,69 @@
+
+.insta-post-container{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.insta-post-container h1{
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+.instaPost-Container{
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    width: 300px;
+    background-color: white;
+}
+.logo-username{
+    display: flex;
+}
+.instaPost-header{
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    justify-content: space-between;
+}
+.insta-user-logo{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(202, 202, 202);
+    padding: 2px;
+    border-radius: 30px;
+}
+.instaPost-header h3, .instaPost-header p{
+    line-height: 5px;
+    font-size: 12px;
+    padding: 0px 5px;
+    margin: 12px 5px;
+}
+.instaPost-icons-container{
+    font-size: 25px;
+    margin: 1%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+.Insta-icon{
+    padding: 1px 4px;
+    font-size: 25px;
+}
+.other-details p{
+  line-height: 15px;
+  margin: 5px;
+  font-size: 12px;
+}
+.post-details{
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-details p{
+    margin: 0px;
+    line-height: 12px;
+    padding: 5px;
+}
