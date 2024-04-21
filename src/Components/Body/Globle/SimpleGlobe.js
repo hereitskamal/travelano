@@ -44,8 +44,10 @@ const SimpleGlobe = () => {
     <div className=' cursor-move'>
       <Globe
         ref={globeRef}
+        height={350}
+        width={400}
         onGlobeReady={globeReady}
-        backgroundColor='#ECECEC'
+        backgroundColor='#f9fafb'
         rendererConfig={{ antialias: true, alpha: true }}
         globeMaterial={
           new THREE.MeshPhongMaterial({

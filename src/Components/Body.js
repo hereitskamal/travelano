@@ -13,15 +13,15 @@ const Body = () => {
     <>
       <Navbar />
       <div className="body-container w-full">
-        {window.innerWidth<560 && <TourSelector/>}
+        {window.innerWidth < 560 && <TourSelector/>}
         <br />
         <hr className="line" />
         <div className="flex " style={{ flexWrap: "wrap" }}>
           <TourPackages />
         </div>
-        <GroupEvent/>
         <HomePageBanner/>
-        <InstaPost />
+        <GroupEvent/>
+        {/* <InstaPost /> */}
       </div>
       <Footer />
     </>
