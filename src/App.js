@@ -13,7 +13,6 @@ import AdminDashbord from './Components/Admin/AdminDashbord';
 
 const App = () => {
   return (
-    <Router>
       <Routes>
         <Route exact path="/travelano" element={<Body />} />
         <Route path="/login" element={<LoginPage />} />
@@ -25,7 +24,6 @@ const App = () => {
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/addGroupTour" element={<GroupTourEventForm />} />
       </Routes>
-    </Router>
   );
 }
 
