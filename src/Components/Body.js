@@ -19,9 +19,9 @@ const Body = () => {
         <div className="flex " style={{ flexWrap: "wrap" }}>
           <TourPackages />
         </div>
-        <HomePageBanner/>
         <GroupEvent/>
         {/* <InstaPost /> */}
+        <HomePageBanner/>
       </div>
       <Footer />
     </>
